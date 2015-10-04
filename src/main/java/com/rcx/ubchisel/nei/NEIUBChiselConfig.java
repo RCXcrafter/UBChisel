@@ -1,18 +1,19 @@
-package com.teammetallurgy.metallurgychisel.nei;
+package com.rcx.ubchisel.nei;
 
 import net.minecraft.item.ItemStack;
+
+import com.rcx.ubchisel.UBChiselItems;
+
 import codechicken.nei.api.API;
 import codechicken.nei.api.IConfigureNEI;
 
-import com.teammetallurgy.metallurgychisel.MetallurgyChiselItems;
-
-public class NEIMetallurgyChiselConfig implements IConfigureNEI
+public class NEIUBChiselConfig implements IConfigureNEI
 {
 
     @Override
     public void loadConfig()
     {
-        API.hideItem(new ItemStack(MetallurgyChiselItems.TAB_ITEM));
+        API.hideItem(new ItemStack(UBChiselItems.TAB_ITEM));
     }
 
     @Override

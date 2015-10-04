@@ -1,12 +1,12 @@
-package com.teammetallurgy.metallurgychisel;
+package com.rcx.ubchisel;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class MetallurgyChiselTab extends CreativeTabs
+public class UBChiselTab extends CreativeTabs
 {
 
-    public MetallurgyChiselTab()
+    public UBChiselTab()
     {
         super("metallurgychisel.tab");
     }
@@ -14,7 +14,7 @@ public class MetallurgyChiselTab extends CreativeTabs
     @Override
     public Item getTabIconItem()
     {
-        return MetallurgyChiselItems.TAB_ITEM;
+        return UBChiselItems.TAB_ITEM;
     }
 
 }

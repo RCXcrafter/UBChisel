@@ -1,16 +1,16 @@
 [
 {
-  "modid": "metallurgychisel",
-  "name": "Metallurgy Chisel",
-  "description": "Metallurgy Chisel integration",
+  "modid": "ubchisel",
+  "name": "UBChisel",
+  "description": "Addon for UBC and Chisel compatibility",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["Team Metallurgy"],
-  "credits": "Chisel's Team, Idea: JadedCreeper",
+  "authorList": ["RCXcrafter"],
+  "credits": "Glassmaker, most of this code was copied from him.",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": ["Metallurgy", "chisel"]
+  "dependencies": []
 }
 ]

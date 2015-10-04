@@ -1,4 +1,4 @@
-package com.teammetallurgy.metallurgychisel.utils;
+package com.rcx.ubchisel.utils;
 
 import org.apache.logging.log4j.Logger;
 

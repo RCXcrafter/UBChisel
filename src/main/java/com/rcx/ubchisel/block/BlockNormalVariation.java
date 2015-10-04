@@ -1,9 +1,11 @@
-package com.teammetallurgy.metallurgychisel.block;
+package com.rcx.ubchisel.block;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map.Entry;
+
+import com.rcx.ubchisel.UBChisel;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -13,8 +15,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 
-import com.teammetallurgy.metallurgychisel.MetallurgyChisel;
-
 public class BlockNormalVariation extends Block
 {
 
@@ -22,7 +22,7 @@ public class BlockNormalVariation extends Block
     HashMap<Integer, String> metalNames = new HashMap<Integer, String>();
     String variationName;
     String setName;
-    String defaultTexture = MetallurgyChisel.MODID + ":" + "default";
+    String defaultTexture = UBChisel.MODID + ":" + "default";
 
     public BlockNormalVariation(String variationName, String metalSet)
     {
@@ -31,7 +31,7 @@ public class BlockNormalVariation extends Block
         setResistance(1.0F);
         this.variationName = variationName;
         setName = metalSet;
-        this.setCreativeTab(MetallurgyChisel.CREATIVE_TAB);
+        this.setCreativeTab(UBChisel.CREATIVE_TAB);
     }
 
     @Override
@@ -64,7 +64,7 @@ public class BlockNormalVariation extends Block
             variationTexureName += entry.getValue().toLowerCase(Locale.US).replace(" ", "_");
             variationTexureName += "_" + variationName.toLowerCase(Locale.US).replace(" ", "_");
 
-            IIcon registeredIcon = register.registerIcon(MetallurgyChisel.MODID + ":" + variationTexureName);
+            IIcon registeredIcon = register.registerIcon(UBChisel.MODID + ":" + variationTexureName);
 
             icons.put(entry.getKey(), registeredIcon);
         }
@@ -98,7 +98,7 @@ public class BlockNormalVariation extends Block
 
         if (name == null) return getUnlocalizedName() + "." + meta;
 
-        String unlocalized = "tile." + MetallurgyChisel.MODID.toLowerCase(Locale.US);
+        String unlocalized = "tile." + UBChisel.MODID.toLowerCase(Locale.US);
         unlocalized += "." + name.toLowerCase(Locale.US).replace(" ", ".");
         unlocalized += "." + variationName.toLowerCase(Locale.US).replace(" ", ".");
 

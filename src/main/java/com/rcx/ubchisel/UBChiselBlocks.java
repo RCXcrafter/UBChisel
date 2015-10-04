@@ -1,4 +1,4 @@
-package com.teammetallurgy.metallurgychisel;
+package com.rcx.ubchisel;
 
 import java.util.Locale;
 
@@ -6,15 +6,15 @@ import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 
 import com.cricketcraft.chisel.api.carving.CarvingUtils;
+import com.rcx.ubchisel.block.BlockNormalVariation;
+import com.rcx.ubchisel.block.BlockTransparentVariation;
+import com.rcx.ubchisel.item.ItemBlockNormalVariation;
 import com.teammetallurgy.metallurgy.api.IMetalSet;
 import com.teammetallurgy.metallurgy.api.MetallurgyApi;
-import com.teammetallurgy.metallurgychisel.block.BlockNormalVariation;
-import com.teammetallurgy.metallurgychisel.block.BlockTransparentVariation;
-import com.teammetallurgy.metallurgychisel.item.ItemBlockNormalVariation;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
-public class MetallurgyChiselBlocks
+public class UBChiselBlocks
 {
 
     private static final String[] variationNormalList = { "Bar Storage", "Blank Plate", "Circle Plate", "Horizontal Pipes", "Horizontal Plate", "Large Bricks", "Ornate", "Plate", "Quarter Plate",

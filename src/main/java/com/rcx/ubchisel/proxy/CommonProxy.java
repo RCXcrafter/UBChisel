@@ -1,4 +1,4 @@
-package com.teammetallurgy.metallurgychisel.proxy;
+package com.rcx.ubchisel.proxy;
 
 public class CommonProxy implements IProxy
 {

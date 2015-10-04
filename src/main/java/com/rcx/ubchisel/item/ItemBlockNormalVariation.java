@@ -1,14 +1,14 @@
-package com.teammetallurgy.metallurgychisel.item;
+package com.rcx.ubchisel.item;
 
 import java.util.Locale;
+
+import com.rcx.ubchisel.UBChisel;
+import com.rcx.ubchisel.block.BlockNormalVariation;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.StatCollector;
-
-import com.teammetallurgy.metallurgychisel.MetallurgyChisel;
-import com.teammetallurgy.metallurgychisel.block.BlockNormalVariation;
 
 public class ItemBlockNormalVariation extends ItemBlock
 {
@@ -44,10 +44,10 @@ public class ItemBlockNormalVariation extends ItemBlock
 
         BlockNormalVariation variantBlock = (BlockNormalVariation) Block.getBlockFromItem(stack.getItem());
 
-        String unlocalizedVariant = "variation." + MetallurgyChisel.MODID.toLowerCase(Locale.US);
+        String unlocalizedVariant = "variation." + UBChisel.MODID.toLowerCase(Locale.US);
         unlocalizedVariant += "." + variantBlock.getVariationName().toLowerCase(Locale.US).replace(" ", ".");
 
-        String unlocalizedMetalName = "metal." + MetallurgyChisel.MODID.toLowerCase(Locale.US);
+        String unlocalizedMetalName = "metal." + UBChisel.MODID.toLowerCase(Locale.US);
         unlocalizedMetalName += "." + variantBlock.getMetalName(stack).toLowerCase(Locale.US).replace(" ", ".");
 
         if (!StatCollector.canTranslate(unlocalizedVariant) || !StatCollector.canTranslate(unlocalizedMetalName)) return super.getItemStackDisplayName(stack);

@@ -1,4 +1,4 @@
-package com.teammetallurgy.metallurgychisel.proxy;
+package com.rcx.ubchisel.proxy;
 
 public interface IProxy
 {

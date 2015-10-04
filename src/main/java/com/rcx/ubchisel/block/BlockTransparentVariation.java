@@ -1,8 +1,8 @@
-package com.teammetallurgy.metallurgychisel.block;
+package com.rcx.ubchisel.block;
+
+import com.rcx.ubchisel.utils.RenderType;
 
 import net.minecraft.world.IBlockAccess;
-
-import com.teammetallurgy.metallurgychisel.utils.RenderType;
 
 public class BlockTransparentVariation extends BlockNormalVariation
 {

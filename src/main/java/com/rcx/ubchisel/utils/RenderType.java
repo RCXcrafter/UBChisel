@@ -1,4 +1,4 @@
-package com.teammetallurgy.metallurgychisel.utils;
+package com.rcx.ubchisel.utils;
 
 public class RenderType
 {

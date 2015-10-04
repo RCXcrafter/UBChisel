@@ -1,4 +1,4 @@
-package com.teammetallurgy.metallurgychisel.client.render;
+package com.rcx.ubchisel.client.render;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderBlocks;
@@ -7,7 +7,7 @@ import net.minecraft.world.IBlockAccess;
 
 import org.lwjgl.opengl.GL11;
 
-import com.teammetallurgy.metallurgychisel.utils.RenderType;
+import com.rcx.ubchisel.utils.RenderType;
 
 import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 

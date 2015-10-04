@@ -1,7 +1,7 @@
-package com.teammetallurgy.metallurgychisel.proxy;
+package com.rcx.ubchisel.proxy;
 
-import com.teammetallurgy.metallurgychisel.client.render.AllSideBlockRenderer;
-import com.teammetallurgy.metallurgychisel.utils.RenderType;
+import com.rcx.ubchisel.client.render.AllSideBlockRenderer;
+import com.rcx.ubchisel.utils.RenderType;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
 

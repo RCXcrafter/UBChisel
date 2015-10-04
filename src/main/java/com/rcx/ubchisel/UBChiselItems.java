@@ -1,9 +1,9 @@
-package com.teammetallurgy.metallurgychisel;
+package com.rcx.ubchisel;
 
 import net.minecraft.item.Item;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-public class MetallurgyChiselItems
+public class UBChiselItems
 {
     public static Item TAB_ITEM;
 
