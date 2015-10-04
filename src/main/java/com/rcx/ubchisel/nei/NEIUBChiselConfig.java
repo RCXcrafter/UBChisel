@@ -19,7 +19,7 @@ public class NEIUBChiselConfig implements IConfigureNEI
     @Override
     public String getName()
     {
-        return "Metallurgy Chisel NEI";
+        return "UBChisel NEI";
     }
 
     @Override

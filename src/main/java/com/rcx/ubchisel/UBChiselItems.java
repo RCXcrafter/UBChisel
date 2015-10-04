@@ -9,7 +9,7 @@ public class UBChiselItems
 
     public static void init()
     {
-        TAB_ITEM = new Item().setTextureName("metallurgychisel:tartarite_chisel").setUnlocalizedName("metallurgychisel.tab.item");
+        TAB_ITEM = new Item().setTextureName("ubchisel:tabicon").setUnlocalizedName("ubchisel.tab.item");
 
         GameRegistry.registerItem(TAB_ITEM, "tabitem");
 

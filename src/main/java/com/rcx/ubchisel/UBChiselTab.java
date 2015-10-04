@@ -8,7 +8,7 @@ public class UBChiselTab extends CreativeTabs
 
     public UBChiselTab()
     {
-        super("metallurgychisel.tab");
+        super("ubchisel.tab");
     }
 
     @Override
