@@ -8,10 +8,12 @@
 /out
 Thumbs.db
 /bin
+/lib
 .classpath
 .project
 .settings/
 /run
+.gitignore
 
 #################
 ## Eclipse

@@ -1,85 +1,55 @@
 # Creative tab
-itemGroup.metallurgychisel.tab=Metallurgy Chisel
+itemGroup.ubchisel.tab=UBChisel
 
 
 # Variations
-variation.metallurgychisel.bar.storage=%s Bar Storage
-variation.metallurgychisel.blank.plate=%s Blank Plate
-variation.metallurgychisel.circle.plate=%s Circle Plate
-variation.metallurgychisel.frame.crossed=%s Frame Crossed
-variation.metallurgychisel.frame=%s Frame
-variation.metallurgychisel.grate=%s Grate
-variation.metallurgychisel.horizontal.pipes=%s Horizontal Pipes
-variation.metallurgychisel.horizontal.plate=%s Horizontal Plate
-variation.metallurgychisel.large.bricks=%s Large Bricks
-variation.metallurgychisel.mesh=%s Mesh
-variation.metallurgychisel.ornate=%s Ornate
-variation.metallurgychisel.plate=%s Plate
-variation.metallurgychisel.quarter.plate=%s Quarter Plate
-variation.metallurgychisel.rune=%s Rune
-variation.metallurgychisel.small.bricks=%s Small Bricks
-variation.metallurgychisel.spiral=%s Spiral
-variation.metallurgychisel.vertical.pipes=%s Vertical Pipes
-variation.metallurgychisel.vertical.plate=%s Vertical Plate
-variation.metallurgychisel.warning=%s Warning
-variation.metallurgychisel.window=%s Window
+variation.ubchisel.cracked.bricks=Cracked %s Bricks
+variation.ubchisel.chiseled=Chiseled %s
+variation.ubchisel.checkerboard=Checkerboard %s Tiles
+variation.ubchisel.chaotic.bricks=Chaotic %s Bricks
+variation.ubchisel.large.bricks=Large %s Bricks
+variation.ubchisel.panel=%s Panel
+variation.ubchisel.large.tiles=Large %s Tiles
+variation.ubchisel.small.tiles=Small %s Tiles
+variation.ubchisel.ornate.panel=Ornate %s Panel
+variation.ubchisel.ornate=Ornate %s
+variation.ubchisel.small.bricks=Small %s Bricks
+variation.ubchisel.prismatic=Prismatic %s
+variation.ubchisel.creeper.panel=%s Creeper Panel
+variation.ubchisel.pillar=%s Pillar
+variation.ubchisel.lines=%s Lines
 
-# Metals
-## Base set
-metal.metallurgychisel.angmallen=Angmallen
-metal.metallurgychisel.bronze=Bronze
-metal.metallurgychisel.copper=Copper
-metal.metallurgychisel.damascus.steel=Damascus Steel
-metal.metallurgychisel.hepatizon=Hepatizon
-metal.metallurgychisel.manganese=Manganese
-metal.metallurgychisel.tin=Tin
-metal.metallurgychisel.steel=Steel
+# Stones
+## Igneous rocks
+rock.ubchisel.red.granite=Red Granite
+rock.ubchisel.black.granite=Black Granite
+rock.ubchisel.rhyolite=Rhyolite
+rock.ubchisel.andesite=Andesite
+rock.ubchisel.gabbro=Gabbro
+rock.ubchisel.basalt=Basalt
+rock.ubchisel.komatiite=Komatiite
+rock.ubchisel.dacite=Dacite
 
-## Ender set
-metal.metallurgychisel.desichalkos=Desichalkos
-metal.metallurgychisel.eximite=Eximite
-metal.metallurgychisel.meutoite=Meutoite
+## Metamorphic rocks
+rock.ubchisel.gneiss=Gneiss
+rock.ubchisel.eclogite=Eclogite
+rock.ubchisel.marble=Marble
+rock.ubchisel.quartzite=Quartzite
+rock.ubchisel.blue.schist=Blue Schist
+rock.ubchisel.green.schist=Green Schist
+rock.ubchisel.soapstone=Soapstone
+rock.ubchisel.migmatite=Migmatite
 
-## Fantasy set
-metal.metallurgychisel.adamantine=Adamantine
-metal.metallurgychisel.atlarus=Atlarus
-metal.metallurgychisel.astral.silver=Astral Silver
-metal.metallurgychisel.black.steel=Black Steel
-metal.metallurgychisel.carmot=Carmot
-metal.metallurgychisel.celenegil=Celenegil
-metal.metallurgychisel.deep.iron=Deep Iron
-metal.metallurgychisel.haderoth=Haderoth
-metal.metallurgychisel.infuscolium=Infuscolium
-metal.metallurgychisel.mithril=Mithril
-metal.metallurgychisel.orichalcum=Orichalcum
-metal.metallurgychisel.oureclase=Oureclase
-metal.metallurgychisel.prometheum=Prometheum
-metal.metallurgychisel.quicksilver=Quicksilver
-metal.metallurgychisel.rubracium=Rubracium
-metal.metallurgychisel.tartarite=Tartarite
-
-## Nether set
-metal.metallurgychisel.alduorite=Alduorite
-metal.metallurgychisel.amordrine=Amordrine
-metal.metallurgychisel.ceruclase=Ceruclase
-metal.metallurgychisel.ignatius=Ignatius
-metal.metallurgychisel.inolashite=Inolashite
-metal.metallurgychisel.kalendrite=Kalendrite
-metal.metallurgychisel.lemurite=Lemurite
-metal.metallurgychisel.midasium=Midasium
-metal.metallurgychisel.sanguinite=Sanguinite
-metal.metallurgychisel.shadow.steel=Shadow Steel
-metal.metallurgychisel.shadow.iron=Shadow Iron
-metal.metallurgychisel.vulcanite=Vulcanite
-metal.metallurgychisel.vyroxeres=Vyroxeres
-
-## Precious set
-metal.metallurgychisel.brass=Brass
-metal.metallurgychisel.electrum=Electrum
-metal.metallurgychisel.platinum=Platinum
-metal.metallurgychisel.silver=Silver
-metal.metallurgychisel.zinc=Zinc
+## Sedimentary rocks
+rock.ubchisel.limestone=Limestone
+rock.ubchisel.chalk=Chalk
+rock.ubchisel.shale=Shale
+rock.ubchisel.siltstone=Siltstone
+rock.ubchisel.lignite=Lignite
+rock.ubchisel.dolomite=Dolomite
+rock.ubchisel.greywacke=Greywacke
+rock.ubchisel.chert=Chert
 
 # specific block localization override is available, examples
-# tile.metallurgychisel.angmallen.bar.storage.name=Angmallen Bar Storage
-# tile.metallurgychisel.damascus.steel.warning.name=Damascus Steel warning
+# tile.ubchisel.angmallen.bar.storage.name=Angmallen Bar Storage
+# tile.ubchisel.damascus.steel.warning.name=Damascus Steel warning

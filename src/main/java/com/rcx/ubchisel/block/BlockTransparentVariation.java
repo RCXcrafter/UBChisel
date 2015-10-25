@@ -7,9 +7,9 @@ import net.minecraft.world.IBlockAccess;
 public class BlockTransparentVariation extends BlockNormalVariation
 {
 
-    public BlockTransparentVariation(String variationName, String metalSet)
+    public BlockTransparentVariation(String variationName, String rockSet)
     {
-        super(variationName, metalSet);
+        super(variationName, rockSet);
     }
 
     @Override

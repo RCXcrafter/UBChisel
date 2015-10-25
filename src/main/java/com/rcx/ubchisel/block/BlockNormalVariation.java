@@ -19,18 +19,18 @@ public class BlockNormalVariation extends Block
 {
 
     HashMap<Integer, IIcon> icons = new HashMap<Integer, IIcon>();
-    HashMap<Integer, String> metalNames = new HashMap<Integer, String>();
+    HashMap<Integer, String> rockNames = new HashMap<Integer, String>();
     String variationName;
     String setName;
     String defaultTexture = UBChisel.MODID + ":" + "default";
 
-    public BlockNormalVariation(String variationName, String metalSet)
+    public BlockNormalVariation(String variationName, String rockSet)
     {
         super(Material.iron);
         setHardness(1.0F);
         setResistance(1.0F);
         this.variationName = variationName;
-        setName = metalSet;
+        setName = rockSet;
         this.setCreativeTab(UBChisel.CREATIVE_TAB);
     }
 
@@ -40,16 +40,16 @@ public class BlockNormalVariation extends Block
         return meta;
     }
 
-    public void addMetal(int meta, String name)
+    public void addRock(int meta, String name)
     {
-        metalNames.put(meta, name);
+        rockNames.put(meta, name);
     }
 
     @Override
     @SuppressWarnings({ "rawtypes", "unchecked" })
     public void getSubBlocks(Item item, CreativeTabs tab, List list)
     {
-        for (Entry<Integer, String> entry : metalNames.entrySet())
+        for (Entry<Integer, String> entry : rockNames.entrySet())
         {
             list.add(new ItemStack(this, 1, entry.getKey()));
         }
@@ -58,7 +58,7 @@ public class BlockNormalVariation extends Block
     @Override
     public void registerBlockIcons(IIconRegister register)
     {
-        for (Entry<Integer, String> entry : metalNames.entrySet())
+        for (Entry<Integer, String> entry : rockNames.entrySet())
         {
             String variationTexureName = setName.toLowerCase(Locale.US).replace(" ", "_") + "/";
             variationTexureName += entry.getValue().toLowerCase(Locale.US).replace(" ", "_");
@@ -94,7 +94,7 @@ public class BlockNormalVariation extends Block
         if (stack == null || stack.getItem() == null) return getUnlocalizedName();
 
         int meta = stack.getItemDamage();
-        String name = metalNames.get(meta);
+        String name = rockNames.get(meta);
 
         if (name == null) return getUnlocalizedName() + "." + meta;
 
@@ -105,12 +105,12 @@ public class BlockNormalVariation extends Block
         return unlocalized;
     }
 
-    public String getMetalName(ItemStack stack)
+    public String getRockName(ItemStack stack)
     {
         if (stack == null || stack.getItem() == null) return null;
 
         int meta = stack.getItemDamage();
-        String name = metalNames.get(meta);
+        String name = rockNames.get(meta);
 
         return name;
     }

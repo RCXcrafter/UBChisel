@@ -18,7 +18,7 @@ public class UBChisel
 {
     public static final String MODID = "ubchisel";
     public static final String VERSION = "%version%";
-    public static final String DEPS = "required-after:UndergroundBiomesConstructs;required-after:chisel";
+    public static final String DEPS = "required-after:UndergroundBiomes;required-after:chisel";
 
     @Instance(MODID)
     public static UBChisel instance;

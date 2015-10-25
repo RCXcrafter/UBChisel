@@ -47,14 +47,14 @@ public class ItemBlockNormalVariation extends ItemBlock
         String unlocalizedVariant = "variation." + UBChisel.MODID.toLowerCase(Locale.US);
         unlocalizedVariant += "." + variantBlock.getVariationName().toLowerCase(Locale.US).replace(" ", ".");
 
-        String unlocalizedMetalName = "metal." + UBChisel.MODID.toLowerCase(Locale.US);
-        unlocalizedMetalName += "." + variantBlock.getMetalName(stack).toLowerCase(Locale.US).replace(" ", ".");
+        String unlocalizedRockName = "rock." + UBChisel.MODID.toLowerCase(Locale.US);
+        unlocalizedRockName += "." + variantBlock.getRockName(stack).toLowerCase(Locale.US).replace(" ", ".");
 
-        if (!StatCollector.canTranslate(unlocalizedVariant) || !StatCollector.canTranslate(unlocalizedMetalName)) return super.getItemStackDisplayName(stack);
+        if (!StatCollector.canTranslate(unlocalizedVariant) || !StatCollector.canTranslate(unlocalizedRockName)) return super.getItemStackDisplayName(stack);
 
-        String metalName = StatCollector.translateToLocal(unlocalizedMetalName).trim();
+        String rockName = StatCollector.translateToLocal(unlocalizedRockName).trim();
 
-        return StatCollector.translateToLocalFormatted(unlocalizedVariant, metalName).trim();
+        return StatCollector.translateToLocalFormatted(unlocalizedVariant, rockName).trim();
 
     }
 }
